@@ -24,8 +24,9 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
 - [React](https://reactjs.org)
-- [Knex](https://expo.io/)
+- [Knex](http://knexjs.org/)
 
 ## :gear: Projeto
 O QuizJs é um projeto onde você pode cadastrar questões e criar um quiz com as mesmas. Veja abaixo o endpoint para cadastrar uma questão:
