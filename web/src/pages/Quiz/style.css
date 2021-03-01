@@ -1,0 +1,47 @@
+.Quiz{
+    height: 100%;
+    background-color: #5255CA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel{
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 800px;
+    color: #333;
+}
+
+.panel form{
+    display: flex;
+    flex-direction: column;
+}
+
+.panel form > .alternative{
+    padding: 20px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+.panel form > button{
+    padding: 20px;
+    align-self: flex-end;
+    margin-top: 10px;
+    border: none;
+    border-radius: 12px;
+    background-color: #FCA82F;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 1s;
+}
+.panel form > button:hover{
+    opacity: 0.7;
+}
+.alternative > input[type="radio"]:checked{
+    background-color: red;
+}

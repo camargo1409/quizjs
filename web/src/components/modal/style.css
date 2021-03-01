@@ -1,0 +1,17 @@
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position:fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper > .panel-modal{
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+    width: 480px;
+}

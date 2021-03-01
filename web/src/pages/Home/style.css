@@ -1,0 +1,72 @@
+.Home{
+    min-height: 100%;
+    background-color: #5255CA;
+    padding-bottom: 20px;
+}
+
+.Home > .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.main > h1{
+    color: white;
+}
+.main > form{
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    max-width: 90%;
+    margin-top: 50px;
+}
+.main > form > label{
+    color: white;
+}
+
+.main > form > input{
+    background-color: #BFBEC9;
+    padding: 20px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+}
+.main > form > button{
+    padding: 20px;
+    border: none;
+    background-color: #1F23A1;
+    color: white;
+    border-radius: 12px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: opacity 1s;
+}
+.main > form > button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.ranking{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
+.ranking > table {
+    border-collapse: collapse;
+    width: 800px;
+    max-width: 90%;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+.ranking > table th,td{
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border:1px solid lightgray
+}
+
+.ranking > h2{
+    color: white;
+}
